@@ -7,7 +7,7 @@ app = Flask(__name__)
 # 设置一个网页输出的内容
 @app.route('/')
 def hello_world():
-    return 'Hello,World!'
+    return 'Hello,Cloud Native!'
 
 
 # 只在测试的时候运行
